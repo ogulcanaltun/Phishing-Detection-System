@@ -8,7 +8,7 @@ from utils.email_checks import preprocess_email
 from utils.model_utils import load_models, predict_with_models
 warnings.filterwarnings("ignore")
 
-google_api_key = "AIzaSyDaiy_f0v0fjAHFKgs8JhobZgAAx25saCE"
+google_api_key = ""
 
 # Initialize colorama for colored terminal output
 init(autoreset=True)
