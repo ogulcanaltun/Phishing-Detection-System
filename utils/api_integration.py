@@ -27,7 +27,7 @@ def calculate_threat_score(stats):
 
 def check_virustotal(url):
     """Enhanced VirusTotal API integration with structured results."""
-    api_key = "08afeda55753a32c6548d4a2620b63180ac6c15ad5f02c947d43dec635227c0e"
+    api_key = ""
     headers = {"x-apikey": api_key}
     
     try:
@@ -81,7 +81,7 @@ def check_virustotal(url):
 
 def check_urlscan(url):
     """Enhanced urlscan.io API integration with structured results."""
-    api_key = "8401dca7-5815-4cf1-bb3a-f5728cb88bd3"
+    api_key = ""
     headers = {"API-Key": api_key}
     data = {"url": url, "visibility": "public"}
     
